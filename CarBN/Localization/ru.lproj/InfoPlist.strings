@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CarBN
+
+  Created for Russian localization
+*/
+
+"CFBundleDisplayName" = "CarBN";
+"NSCameraUsageDescription" = "Камера используется для съемки изображений автомобилей.";

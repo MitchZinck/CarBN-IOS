@@ -1,0 +1,290 @@
+/* 
+  Localizable.strings
+  CarBN
+
+  Created for Ukrainian localization
+*/
+
+// MARK: - Common
+"common.error" = "Помилка"; // "Error" (5) -> (7)
+"common.ok" = "ОК"; // "OK" (2) -> (2)
+"common.cancel" = "Скасувати"; // "Cancel" (6) -> (9)
+"common.save" = "Зберегти"; // "Save" (4) -> (8)
+"common.delete" = "Видалити"; // "Delete" (6) -> (8)
+"common.edit" = "Редагувати"; // "Edit" (4) -> (10)
+"common.loading" = "Завантаження..."; // "Loading..." (10) -> (14)
+"common.retry" = "Повторити"; // "Retry" (5) -> (9)
+"common.done" = "Готово"; // "Done" (4) -> (6)
+"common.search" = "Пошук"; // "Search" (6) -> (5)
+"common.na" = "Н/Д"; // "N/A" (3) -> (3)
+
+// MARK: - App
+"app.tagline" = "Збирай, Обмінюй, Спілкуйся"; // "Collect, Trade, Connect" (23) -> (27)
+
+// MARK: - Tabs
+"tab.home" = "Дім"; // "Home" (4) -> (3)
+"tab.friends" = "Друзі"; // "Friends" (7) -> (5)
+"tab.scan" = "Скан"; // "Scan" (4) -> (4)
+"tab.profile" = "Профіль"; // "Profile" (7) -> (7)
+"tab.trades" = "Обміни"; // "Trades" (6) -> (6)
+
+// MARK: - Auth
+"auth.signin" = "Увійти"; // "Sign In" (7) -> (6)
+"auth.signin.google" = "Увійти через Google"; // "Sign in with Google" (19) -> (19)
+"auth.signin.apple" = "Увійти через Apple"; // "Sign in with Apple" (18) -> (18)
+"auth.signout" = "Вийти"; // "Sign Out" (8) -> (5)
+"auth.welcome" = "Ласкаво просимо"; // "Welcome" (7) -> (15)
+"auth.email" = "Ел. пошта"; // "Email" (5) -> (9)
+"auth.password" = "Пароль"; // "Password" (8) -> (6)
+"auth.logout" = "Вихід"; // "Logout" (6) -> (5)
+
+// MARK: - Home
+"home.title" = "Стрічка активності"; // "Activity Feed" (13) -> (18)
+"home.view" = "Переглянути"; // "View" (4) -> (11)
+"home.feed" = "Стрічка"; // "Feed" (4) -> (7)
+"home.likes" = "Лайки"; // "Likes" (5) -> (5)
+"home.feed.empty" = "Немає активності"; // "No activity yet" (15) -> (16)
+"home.likes.empty" = "Немає лайків"; // "No likes yet" (12) -> (12)
+
+// MARK: - Feed
+"feed.details" = "Деталі"; // "Details" (7) -> (6)
+"feed.action.scanned" = "відсканував авто"; // "scanned a car" (13) -> (16)
+"feed.action.friended" = "додав друга"; // "friended" (8) -> (11)
+"feed.loading.car_details" = "Завантаження даних авто..."; // "Loading car details..." (22) -> (25)
+"feed.loading.trade_details" = "Завантаження даних обміну..."; // "Loading trade details..." (24) -> (27)
+"feed.trade.cars_offered" = "Пропонує %d авто"; // "%d cars offered" (15) -> (16)
+"feed.trade.cars_received" = "Отримано %d авто"; // "%d cars received" (17) -> (16)
+"feed.trade.tap_for_details" = "Торкнись для деталей"; // "Tap to view details" (19) -> (21)
+"feed.like.car_scan" = "сподобався твій скан"; // "liked your car scan" (19) -> (20)
+"feed.like.trade" = "сподобався твій обмін"; // "liked your trade" (16) -> (21)
+"feed.like.post" = "сподобався твій пост"; // "liked your post" (15) -> (20)
+"feed.like.car" = "лайкнув твоє авто";
+
+// MARK: - Scan
+"scan.title" = "Скан авто"; // "Scan Car" (8) -> (9)
+"scan.car" = "Скан авто"; // "Scan Car" (8) -> (9)
+"scan.change_photo" = "Змінити фото"; // "Change Photo" (12) -> (12)
+"scan.photo_source" = "Обрати джерело фото"; // "Choose Photo Source" (19) -> (19)
+"scan.source.camera" = "Камера"; // "Camera" (6) -> (6)
+"scan.source.photo_library" = "Фотобібліотека"; // "Photo Library" (13) -> (13)
+"scan.analyzing" = "Аналіз авто..."; // "Analyzing Car..." (15) -> (13)
+"scan.identify" = "Розпізнати авто"; // "Identify Car" (12) -> (15)
+"scan.error.unknown" = "Невідома помилка при скануванні"; // "An unknown error occurred while scanning the car" (47) -> (30)
+"scan.error.no_credits" = "Немає кредитів для сканування"; // "No scan credits remaining" (25) -> (28)
+"scan.error.already_scanned" = "Авто вже сканувалось за 24 год"; // "You've already scanned this car in the last 24 hours. Please wait before scanning it again." (88) -> (29)
+"scan.error.invalid_image" = "Неправильний формат або авто не розпізнане"; // "Invalid image format or unrecognized car" (39) -> (40)
+"scan.error.failed" = "Не вдалося сканувати авто."; // "Failed to scan car. Please try again." (36) -> (25)
+
+// MARK: - Scan Credits
+"scan.credits" = "Кредити сканування"; // "Scan Credits" (12) -> (17)
+"scan.credits.low" = "Мало кредитів сканування"; // "Running low on scan credits" (27) -> (23)
+"scan.get_more" = "Отримати ще"; // "Get More" (8) -> (11)
+
+// MARK: - Profile
+"profile.title" = "Профіль"; // "Profile" (7) -> (7)
+"profile.score" = "Очки: %d"; // "Score: %d" (9) -> (9)
+"profile.cars.title" = "Мої авто"; // "My Cars" (7) -> (8)
+"profile.cars.collection" = "Колекція"; // "Collection" (10) -> (8)
+"profile.cars.empty" = "Немає авто в колекції"; // "No cars collected yet" (21) -> (20)
+"profile.cars.loading" = "Завантаження авто..."; // "Loading cars..." (15) -> (19)
+"profile.cars.changes_detected" = "Зміни авто виявлено, кеш оновлено"; // "Car changes detected, updated local cache" (40) -> (32)
+"profile.cars.no_changes" = "Змін немає, дані ті самі"; // "No changes to user cars, using existing data" (43) -> (23)
+"profile.display_name" = "Ім'я користувача"; // "Display Name" (12) -> (16)
+"profile.default_user" = "Користувач"; // "User" (4) -> (10)
+"profile.stat.collected" = "Зібрано"; // "Collected" (9) -> (7)
+"profile.stat.friends" = "Друзі"; // "Friends" (7) -> (5)
+"profile.stat.score" = "Очки"; // "Score" (5) -> (5)
+"profile.trade_cars" = "Обмін авто"; // "Trade Cars" (10) -> (10)
+"profile.sort" = "Сортувати"; // "Sort" (4) -> (9)
+"profile.sort_by" = "Сортувати за"; // "Sort by" (7) -> (12)
+"profile.sort.rarity" = "Рідкість"; // "Rarity" (6) -> (8)
+"profile.sort.name" = "Ім'я"; // "Name" (4) -> (4)
+"profile.sort.date" = "Дата збору"; // "Date Collected" (14) -> (10)
+"profile.name_error.length" = "Ім'я має бути від 3 до 50 символів"; // "Display name must be between 3 and 50 characters" (47) -> (33)
+"profile.name_error.update_failed" = "Не вдалося оновити ім'я."; // "Failed to update display name." (30) -> (23)
+
+// MARK: - Cars
+"car.rarity" = "Рідкість"; // "Rarity" (6) -> (8)
+"car.make" = "Марка"; // "Make" (4) -> (5)
+"car.model" = "Модель"; // "Model" (5) -> (6)
+"car.year" = "Рік"; // "Year" (4) -> (3)
+"car.details" = "Деталі"; // "Details" (7) -> (6)
+"car.horsepower.short" = "к.с."; // "HP" (2) -> (4, Ukrainian for horsepower)
+"car.top_speed" = "Макс. швидкість"; // "Top Speed" (9) -> (15)
+"car.acceleration" = "0-60"; // "0-60" (4) -> (4, kept as imperial context)
+
+// MARK: - Friends
+"friends.title" = "Друзі"; // "Friends" (7) -> (5)
+"friends.requests" = "Запити друзів"; // "Friend Requests" (15) -> (13)
+"friends.requests.pending" = "Oчікуючий";
+"friends.requests_count" = "Запити (%d)"; // "Requests (%d)" (13) -> (11)
+"friends.add" = "Додати друга"; // "Add Friend" (10) -> (12)
+"friends.remove" = "Видалити друга"; // "Remove Friend" (13) -> (14)
+"friends.empty" = "У вас немає друзів"; // "You don't have any friends yet" (29) -> (17)
+"friends.no_pending_requests" = "Немає запитів на дружбу"; // "No pending friend requests" (26) -> (22)
+"friends.user_friends" = "Друзі %@" ; // "%@'s Friends" (12) -> (9)
+"friends.view_profile" = "Див. профіль"; // "View Profile" (12) -> (12, shortened from "Переглянути профіль")
+"friends.search_placeholder" = "Пошук за ім'ям"; // "Search by display name" (22) -> (14)
+"friends.search.no_results" = "Користувачів не знайдено"; // "No users found" (14) -> (23)
+"friends.status.pending" = "Очікування"; // "Pending" (7) -> (10)
+"friends.total_count" = "%d друзів усього"; // "%d total friends" (16) -> (16)
+"friends.friend_count" = "%d друзів"; // "%d friends" (10) -> (9)
+"friend.no_subscription" = "Немає активної підписки у користувача"; // "This user doesn't have an active subscription" (44) -> (36)
+
+// MARK: - Trades
+"trades.title" = "Обміни"; // "Trades" (6) -> (6)
+"trades.new" = "Новий обмін"; // "New Trade" (9) -> (11)
+"trades.history" = "Історія обмінів"; // "Trade History" (13) -> (15)
+"trades.offer" = "Запропонувати"; // "Make Offer" (10) -> (13)
+"trades.accept" = "Прийняти"; // "Accept" (6) -> (8)
+"trades.reject" = "Відхилити"; // "Reject" (6) -> (9)
+"trades.cancel" = "Скасувати обмін"; // "Cancel Trade" (12) -> (15)
+"trades.filter" = "Фільтр"; // "Filter" (6) -> (6)
+"trades.filter.all" = "Усі"; // "All" (3) -> (3)
+"trades.filter.pending" = "Очікування"; // "Pending" (7) -> (10)
+"trades.filter.pending_count" = "Очікування (%d)"; // "Pending (%d)" (12) -> (14)
+"trades.filter.accepted" = "Прийнято"; // "Accepted" (8) -> (8)
+"trades.filter.declined" = "Відхилено"; // "Declined" (8) -> (9)
+"trades.empty" = "Немає обмінів"; // "No trades yet" (13) -> (13)
+"trades.empty.description" = "Обміни з друзями будуть тут"; // "When you trade cars with friends, they'll show up here" (52) -> (26)
+
+// MARK: - Subscriptions
+"subscription.title" = "Підписки"; // "Subscriptions" (12) -> (8)
+"subscription.manage" = "Керувати підписками"; // "Manage Subscriptions" (20) -> (19)
+"subscription.active" = "Активна підписка"; // "Active Subscription" (19) -> (16)
+"subscription.inactive" = "Немає активної підписки"; // "No Active Subscription" (22) -> (23)
+"subscription.upgrade" = "Оновити підписку"; // "Upgrade Subscription" (20) -> (16)
+"subscription.subscribe_now" = "Підписатися зараз"; // "Subscribe Now" (13) -> (17)
+"subscription.required.title" = "Не можна обміняти"; // "Can't Trade" (11) -> (16)
+"subscription.required.message" = "Потрібна активна підписка для обміну"; // "You need an active subscription to trade" (39) -> (35)
+
+// MARK: - Subscription Required
+"subscription.locked.generic_title" = "Функція заблокована"; // "Feature Locked" (14) -> (19)
+"subscription.locked.generic_message" = "Підпишись для доступу до функції"; // "Please subscribe to access this feature" (38) -> (31)
+
+// MARK: - Subscription Info
+"subscription.info.active" = "Активна підписка"; // "Active Subscription" (19) -> (16)
+"subscription.info.expires" = "Закінчується: %@"; // "Expires: %@" (11) -> (15)
+"subscription.info.not_subscribed" = "Не підписано"; // "Not subscribed" (14) -> (12)
+"subscription.info.scans_available" = "%d сканів доступно"; // "%d Scans Available" (18) -> (18)
+
+// MARK: - Subscription View
+"subscription.purchase_type" = "Тип покупки"; // "Purchase Type" (13) -> (11)
+"subscription.tab.monthly" = "Щомісячно"; // "Monthly" (7) -> (9)
+"subscription.tab.scan_packs" = "Пакети сканів"; // "Scan Packs" (10) -> (13)
+"subscription.current_plan" = "Поточний план"; // "Current Plan" (12) -> (13)
+"subscription.month_suffix" = "/місяць"; // "/month" (6) -> (7)
+"subscription.loading" = "Завантаження..."; // "Loading..." (10) -> (14)
+"subscription.scan_credits_per_month" = "%d сканів на місяць"; // "%d scans per month" (18) -> (19)
+"subscription.features.trading" = "Обмін з друзями"; // "Trading with friends" (20) -> (15)
+"subscription.features.premium_images" = "Преміум оновлення"; // "Premium Car Upgrades" (20) -> (17)
+"subscription.button.subscribe" = "Підписатися"; // "Subscribe" (9) -> (11)
+"subscription.button.purchase" = "Купити"; // "Purchase" (8) -> (6)
+"subscription.scan_pack.starter" = "Стартовий пакет"; // "Starter Pack" (12) -> (15)
+"subscription.scan_pack.value" = "Вигідний пакет"; // "Value Pack" (10) -> (14)
+"subscription.scan_pack.mega" = "Мега пакет"; // "Mega Pack" (9) -> (10)
+"subscription.scan_pack.scans" = "сканів"; // "scans" (5) -> (6)
+"subscription.benefits.title" = "Переваги підписки"; // "Subscription Benefits" (20) -> (17)
+"subscription.benefits.trading.title" = "Обмін авто"; // "Car Trading" (11) -> (10)
+"subscription.benefits.trading.description" = "Обмінюй авто з друзями"; // "Trade cars with friends" (22) -> (23)
+"subscription.benefits.images.title" = "Преміум фото"; // "Premium Images" (14) -> (13)
+"subscription.benefits.images.description" = "Фото авто високої якості"; // "High resolution car images" (26) -> (24)
+"subscription.benefits.scanning.title" = "Скан авто"; // "Scan Cars" (9) -> (9)
+"subscription.benefits.scanning.description" = "Розпізнавай і збирай авто"; // "Identify and collect cars" (24) -> (24)
+"subscription.alert.success.title" = "Успіх"; // "Success" (7) -> (5)
+"subscription.alert.success.message" = "Підписка успішно активована!"; // "Your subscription was successfully activated!" (44) -> (28)
+
+// MARK: - Errors
+"error.network" = "Помилка мережі. Перевірте зв'язок."; // "Network error. Please check your connection." (44) -> (33)
+"error.auth" = "Помилка авторизації. Увійдіть знову."; // "Authentication error. Please sign in again." (42) -> (34)
+"error.unknown" = "Невідома помилка."; // "An unknown error occurred." (25) -> (16)
+
+// MARK: - Car Details
+"car.details.sell" = "Продати"; // "Sell" (4) -> (7)
+"car.details.sell_title" = "Продати авто"; // "Sell Car" (8) -> (12)
+"car.details.sell_message" = "Продати авто за %d монет?"; // "Are you sure you want to sell this car? You will receive %d coins." (65) -> (25)
+"car.details.overview" = "Огляд"; // "Overview" (8) -> (5)
+"car.details.collected" = "Зібрано"; // "Collected" (9) -> (7)
+"car.details.trim" = "Модифікація"; // "Trim" (4) -> (11)
+"car.details.value" = "Цінність"; // "Value" (5) -> (8)
+"car.details.engine_type" = "Тип двигуна"; // "Engine Type" (11) -> (12)
+"car.details.drivetrain" = "Привід"; // "Drivetrain" (10) -> (6)
+"car.details.weight" = "Вага"; // "Weight" (6) -> (4)
+"car.details.weight_unit" = "%d lbs"; // "%d lbs" (6) -> (6, imperial "фнт" for pounds)
+"car.details.description" = "Опис"; // "Description" (11) -> (4)
+"car.details.upgrade" = "Покращити"; // "Upgrade" (7) -> (9)
+"car.details.revert" = "Повернути"; // "Revert" (6) -> (9)
+"car.details.enhancing" = "Покращення фото..."; // "Enhancing Image..." (17) -> (17)
+"car.details.specs.horsepower" = "Потужність"; // "Horsepower" (10) -> (10)
+"car.details.specs.horsepower_value" = "%d к.с."; // "%d hp" (5) -> (7)
+"car.details.specs.top_speed" = "Макс. швидкість"; // "Top Speed" (9) -> (15)
+"car.details.specs.top_speed_value" = "%d mph"; // "%d mph" (6) -> (6, imperial "м/ч" for mph)
+"car.details.specs.acceleration" = "0-60"; // "0-60" (4) -> (4)
+"car.details.specs.acceleration_value" = "%.1fс"; // "%.1fs" (5) -> (5)
+"car.details.upgrade_title" = "Покращити фото"; // "Upgrade Image" (13) -> (14)
+"car.details.upgrade_message" = "Покращити фото авто за 5000 монет? Потрібна підписка."; // "Would you like to upgrade this car's image to a premium version? This requires an active subscription and costs 5000 coins. The original image will be preserved." (156) -> (52)
+"car.details.revert_title" = "Повернути фото"; // "Revert Image" (12) -> (14)
+"car.details.revert_message" = "Повернути початкове фото? Безкоштовно."; // "Are you sure you want to revert this car's image to the original version? This action is free but you will need to pay again to upgrade in the future." (141) -> (38)
+"car.details.error.subscription" = "Потрібна підписка для покращення фото"; // "You need an active subscription to upgrade car images" (52) -> (36)
+"car.details.error.insufficient_coins" = "Недостатньо монет. Потрібно 5000."; // "Insufficient coins. You need 5000 coins to upgrade a car image." (62) -> (33)
+
+// MARK: - Trade Details
+"trade.details.title" = "Деталі обміну"; // "Trade Details" (13) -> (13)
+"trade.details.offered_by" = "Запропоновано від "; // "Offered by " (11) -> (17)
+"trade.details.requested_from" = "Запитано від "; // "Requested from " (15) -> (13)
+"trade.details.subscription_required" = "Потрібна підписка"; // "Active Subscription Required" (28) -> (17)
+"trade.details.subscription_message" = "Потрібна підписка для обміну авто."; // "You need an active subscription to trade cars." (45) -> (33)
+"trade.close" = "Закрити"; // "Close" (5) -> (7)
+
+// MARK: - Trade History
+"trade.history.offering" = "Пропонує"; // "Offering" (8) -> (8)
+"trade.history.requesting" = "Запитує"; // "Requesting" (10) -> (8)
+"trade.history.traded" = "Обміняно %@"; // "Traded %@" (9) -> (11)
+
+// MARK: - Trade
+"trade.new.title" = "Обмін авто"; // "Trade Cars" (10) -> (10)
+"trade.new.your_cars" = "Твої авто"; // "Your Cars" (9) -> (9)
+"trade.new.offering" = "Пропоную: %d авто"; // "Offering: %d cars" (17) -> (17)
+"trade.new.cars_from" = "Авто від "; // "Cars from " (10) -> (9)
+"trade.new.requesting" = "Запитую: %d авто"; // "Requesting: %d cars" (19) -> (16)
+"trade.new.submit" = "Надіслати обмін"; // "Submit Trade" (12) -> (15)
+"trade.new.no_cars" = "Немає авто"; // "No cars available" (17) -> (10)
+"trade.subscription.required" = "Потрібна підписка"; // "Subscription Required" (21) -> (17)
+"trade.subscription.message" = "Для обміну потрібна активна підписка."; // "An active subscription is required to trade cars." (48) -> (37)
+"trade.error.unknown" = "Невідома помилка"; // "An unknown error occurred" (24) -> (16)
+"trade.action.accept" = "Прийняти"; // "Accept" (6) -> (8)
+"trade.action.decline" = "Відхилити"; // "Decline" (7) -> (9)
+
+// MARK: - Settings
+"settings.title" = "Налаштування"; // "Settings" (8) -> "Налаштування" (12)
+"settings.language" = "Мова"; // "Language" (8) -> "Мова" (4)
+"settings.app_settings" = "Налаштування додатку"; // "App Settings" (12) -> "Налаштування додатку" (20)
+"settings.subscription" = "Підписка"; // "Subscription" (12) -> "Підписка" (8)
+"settings.language_changed" = "Мову змінено"; // "Language Changed" (16) -> "Мову змінено" (12)
+"settings.restart_required" = "Будь ласка, перезапустіть додаток, щоб зміна мови набула чинності."; // "Please restart..." (58) -> (62)
+"settings.restart" = "Перезапустити"; // "Restart App" (11) -> "Перезапустити" (12)
+"settings.english" = "Англійська"; // "English" (7) -> (10)
+"settings.russian" = "Російська"; // "Russian" (7) -> (9)
+"settings.ukrainian" = "Українська"; // "Ukrainian" (9) -> (10)
+"settings.spanish" = "Іспанська"; // "Spanish" (7) -> (9)
+
+// MARK: - Rarity Badge
+"rarity.common" = "Звичайний"; // "Common" (6) -> (9)
+"rarity.uncommon" = "Незвичайний"; // "Uncommon" (8) -> (11)
+"rarity.rare" = "Рідкісний"; // "Rare" (4) -> (9)
+"rarity.epic" = "Епічний"; // "Epic" (4) -> (7)
+"rarity.legendary" = "Легендарний"; // "Legendary" (9) -> (11)
+
+// MARK: - Settings
+"settings.manage_subscription" = "Керувати підпискою";
+"settings.get_subscription" = "Отримати підписку";
+"settings.subscription_settings" = "Налаштування підписки";
+
+// MARK: - Scan Subscription
+"scan.subscription_required.title" = "Преміум функція";
+"scan.subscription_required.message" = "Підпишіться, щоб розблокувати необмежене сканування авто та преміум функції";
+
+/* Danger zone section header */
+"settings.danger_zone" = "Небезпечна зона";
+/* Delete Account button */
+"settings.delete_account" = "Видалити акаунт";

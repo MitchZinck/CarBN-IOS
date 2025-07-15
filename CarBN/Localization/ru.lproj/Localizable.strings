@@ -1,0 +1,285 @@
+
+// MARK: - Common
+"common.error" = "Ошибка"; // "Error" (5) -> "Ошибка" (6)
+"common.ok" = "ОК"; // "OK" (2) -> "ОК" (2)
+"common.cancel" = "Отмена"; // "Cancel" (6) -> "Отмена" (6)
+"common.save" = "Сохранить"; // "Save" (4) -> "Сохранить" (9, longer but natural)
+"common.delete" = "Удалить"; // "Delete" (6) -> "Удалить" (7)
+"common.edit" = "Редактировать"; // "Edit" (4) -> "Редактировать" (13, longer but natural)
+"common.loading" = "Загрузка..."; // "Loading..." (10) -> "Загрузка..." (11)
+"common.retry" = "Повторить"; // "Retry" (5) -> "Повторить" (9, longer but natural)
+"common.done" = "Готово"; // "Done" (4) -> "Готово" (6)
+"common.search" = "Поиск"; // "Search" (6) -> "Поиск" (5)
+"common.na" = "Н/Д"; // "N/A" (3) -> "Н/Д" (3)
+
+// MARK: - App
+"app.tagline" = "Собирай, Обменивай, Общайся"; // "Collect, Trade, Connect" (23) -> (28, slightly longer)
+
+// MARK: - Tabs
+"tab.home" = "Домой"; // "Home" (4) -> "Домой" (5)
+"tab.friends" = "Друзья"; // "Friends" (7) -> "Друзья" (6)
+"tab.scan" = "Скан"; // "Scan" (4) -> "Скан" (4)
+"tab.profile" = "Профиль"; // "Profile" (7) -> "Профиль" (7)
+"tab.trades" = "Обмены"; // "Trades" (6) -> "Обмены" (6)
+
+// MARK: - Auth
+"auth.signin" = "Войти"; // "Sign In" (7) -> "Войти" (5)
+"auth.signin.google" = "Войти через Google"; // "Sign in with Google" (19) -> (18)
+"auth.signin.apple" = "Войти через Apple"; // "Sign in with Apple" (18) -> (17)
+"auth.signout" = "Выйти"; // "Sign Out" (8) -> "Выйти" (5)
+"auth.welcome" = "Добро пожаловать"; // "Welcome" (7) -> "Добро пожаловать" (16, longer but natural)
+"auth.email" = "Эл. почта"; // "Email" (5) -> "Эл. почта" (9)
+"auth.password" = "Пароль"; // "Password" (8) -> "Пароль" (6)
+"auth.logout" = "Выход"; // "Logout" (6) -> "Выход" (5)
+
+// MARK: - Home
+"home.title" = "Лента активности"; // "Activity Feed" (13) -> (16)
+"home.view" = "Смотреть"; // "View" (4) -> "Смотреть" (8)
+"home.feed" = "Лента"; // "Feed" (4) -> "Лента" (5)
+"home.likes" = "Лайки"; // "Likes" (5) -> "Лайки" (5)
+"home.feed.empty" = "Нет активности"; // "No activity yet" (15) -> (14)
+"home.likes.empty" = "Нет лайков"; // "No likes yet" (12) -> (10)
+
+// MARK: - Feed
+"feed.details" = "Детали"; // "Details" (7) -> "Детали" (6)
+"feed.action.scanned" = "отсканировал машину"; // "scanned a car" (13) -> (20, longer but natural)
+"feed.action.friended" = "добавил друга"; // "friended" (8) -> (13)
+"feed.loading.car_details" = "Загрузка данных машины..."; // "Loading car details..." (22) -> (25)
+"feed.loading.trade_details" = "Загрузка данных обмена..."; // "Loading trade details..." (24) -> (24)
+"feed.trade.cars_offered" = "Предложено %d машин"; // "%d cars offered" (15) -> (19)
+"feed.trade.cars_received" = "Получено %d машин"; // "%d cars received" (17) -> (17)
+"feed.trade.tap_for_details" = "Нажми для деталей"; // "Tap to view details" (19) -> (17)
+"feed.like.car_scan" = "понравился твой скан"; // "liked your car scan" (19) -> (21)
+"feed.like.trade" = "понравился твой обмен"; // "liked your trade" (16) -> (21)
+"feed.like.post" = "понравился твой пост"; // "liked your post" (15) -> (20)
+"feed.like.car" = "лайкнул твоё авто";
+
+// MARK: - Scan
+"scan.title" = "Скан машины"; // "Scan Car" (8) -> "Скан машины" (11)
+"scan.car" = "Скан машины"; // "Scan Car" (8) -> "Скан машины" (11)
+"scan.change_photo" = "Сменить фото"; // "Change Photo" (12) -> (12)
+"scan.photo_source" = "Выбрать источник фото"; // "Choose Photo Source" (19) -> (21)
+"scan.source.camera" = "Камера"; // "Camera" (6) -> "Камера" (6)
+"scan.source.photo_library" = "Фото библиотека"; // "Photo Library" (13) -> (15)
+"scan.analyzing" = "Анализ машины..."; // "Analyzing Car..." (15) -> (16)
+"scan.identify" = "Опознать машину"; // "Identify Car" (12) -> (15)
+"scan.error.unknown" = "Неизвестная ошибка при сканировании"; // "An unknown error occurred while scanning the car" (47) -> (34, shorter but clear)
+"scan.error.no_credits" = "Нет кредитов для сканирования"; // "No scan credits remaining" (25) -> (28)
+"scan.error.already_scanned" = "Машина уже сканировалась за 24 часа"; // "You've already scanned this car in the last 24 hours. Please wait before scanning it again." (88) -> (34, concise)
+"scan.error.invalid_image" = "Неверный формат или машина не распознана"; // "Invalid image format or unrecognized car" (39) -> (39)
+"scan.error.failed" = "Ошибка сканирования. Попробуй еще."; // "Failed to scan car. Please try again." (36) -> (34)
+
+// MARK: - Scan Credits
+"scan.credits" = "Кредиты сканирования"; // "Scan Credits" (12) -> (19)
+"scan.credits.low" = "Мало кредитов для сканирования"; // "Running low on scan credits" (27) -> (29)
+"scan.get_more" = "Получить еще"; // "Get More" (8) -> (12)
+
+// MARK: - Profile
+"profile.title" = "Профиль"; // "Profile" (7) -> "Профиль" (7)
+"profile.score" = "Очки: %d"; // "Score: %d" (9) -> (9)
+"profile.cars.title" = "Мои машины"; // "My Cars" (7) -> (10)
+"profile.cars.collection" = "Коллекция"; // "Collection" (10) -> (9)
+"profile.cars.empty" = "Машин пока нет"; // "No cars collected yet" (21) -> (14)
+"profile.cars.loading" = "Загрузка машин..."; // "Loading cars..." (15) -> (17)
+"profile.cars.changes_detected" = "Изменения машин, кэш обновлен"; // "Car changes detected, updated local cache" (40) -> (29)
+"profile.cars.no_changes" = "Изменений нет, данные те же"; // "No changes to user cars, using existing data" (43) -> (27)
+"profile.display_name" = "Имя пользователя"; // "Display Name" (12) -> (15)
+"profile.default_user" = "Юзер"; // "User" (4) -> "Юзер" (5)
+"profile.stat.collected" = "Собрано"; // "Collected" (9) -> "Собрано" (7)
+"profile.stat.friends" = "Друзья"; // "Friends" (7) -> "Друзья" (6)
+"profile.stat.score" = "Очки"; // "Score" (5) -> "Очки" (4)
+"profile.trade_cars" = "Обмен машин"; // "Trade Cars" (10) -> (11)
+"profile.sort" = "Сортировать"; // "Sort" (4) -> "Сортировать" (11)
+"profile.sort_by" = "Сортировать по"; // "Sort by" (7) -> (14)
+"profile.sort.rarity" = "Редкость"; // "Rarity" (6) -> "Редкость" (8)
+"profile.sort.name" = "Имя"; // "Name" (4) -> "Имя" (3)
+"profile.sort.date" = "Дата сбора"; // "Date Collected" (14) -> (10)
+"profile.name_error.length" = "Имя должно быть от 3 до 50 символов"; // "Display name must be between 3 and 50 characters" (47) -> (34)
+"profile.name_error.update_failed" = "Не удалось обновить имя."; // "Failed to update display name." (30) -> (25)
+
+// MARK: - Cars
+"car.rarity" = "Редкость"; // "Rarity" (6) -> "Редкость" (8)
+"car.make" = "Марка"; // "Make" (4) -> "Марка" (5)
+"car.model" = "Модель"; // "Model" (5) -> "Модель" (6)
+"car.year" = "Год"; // "Year" (4) -> "Год" (3)
+"car.details" = "Детали"; // "Details" (7) -> "Детали" (6)
+"car.horsepower.short" = "ЛС"; // "HP" (2) -> "ЛС" (2)
+"car.top_speed" = "Макс. скорость"; // "Top Speed" (9) -> (14)
+"car.acceleration" = "0-100"; // "0-60" (4) -> "0-100" (5, adjusted for metric)
+
+// MARK: - Friends
+"friends.title" = "Друзья"; // "Friends" (7) -> "Друзья" (6)
+"friends.requests" = "Запросы друзей"; // "Friend Requests" (15) -> (14)
+"friends.requests.pending" = "Ожидающий";
+"friends.requests_count" = "Запросы (%d)"; // "Requests (%d)" (13) -> (12)
+"friends.add" = "Добавить друга"; // "Add Friend" (10) -> (14)
+"friends.remove" = "Удалить друга"; // "Remove Friend" (13) -> (13)
+"friends.empty" = "У вас нет друзей"; // "You don't have any friends yet" (29) -> (16)
+"friends.no_pending_requests" = "Нет запросов в ожидании"; // "No pending friend requests" (26) -> (23)
+"friends.user_friends" = "Друзья %@"; // "%@'s Friends" (12) -> (9)
+"friends.view_profile" = "См. профиль"; // "View Profile" (12) -> (16)
+"friends.search_placeholder" = "Поиск по имени"; // "Search by display name" (22) -> (14)
+"friends.search.no_results" = "Пользователи не найдены"; // "No users found" (14) -> (23)
+"friends.status.pending" = "Ожидание"; // "Pending" (7) -> "Ожидание" (8)
+"friends.total_count" = "%d друзей всего"; // "%d total friends" (16) -> (15)
+"friends.friend_count" = "%d друзей"; // "%d friends" (10) -> (9)
+"friend.no_subscription" = "Нет активной подписки у пользователя"; // "This user doesn't have an active subscription" (44) -> (36)
+
+// MARK: - Trades
+"trades.title" = "Обмены"; // "Trades" (6) -> "Обмены" (6)
+"trades.new" = "Новый обмен"; // "New Trade" (9) -> (11)
+"trades.history" = "История обменов"; // "Trade History" (13) -> (15)
+"trades.offer" = "Предложить"; // "Make Offer" (10) -> (10)
+"trades.accept" = "Принять"; // "Accept" (6) -> "Принять" (7)
+"trades.reject" = "Отклонить"; // "Reject" (6) -> "Отклонить" (9)
+"trades.cancel" = "Отменить обмен"; // "Cancel Trade" (12) -> (14)
+"trades.filter" = "Фильтр"; // "Filter" (6) -> "Фильтр" (6)
+"trades.filter.all" = "Все"; // "All" (3) -> "Все" (3)
+"trades.filter.pending" = "Ожидание"; // "Pending" (7) -> "Ожидание" (8)
+"trades.filter.pending_count" = "Ожидание (%d)"; // "Pending (%d)" (12) -> (13)
+"trades.filter.accepted" = "Принято"; // "Accepted" (8) -> "Принято" (7)
+"trades.filter.declined" = "Отклонено"; // "Declined" (8) -> "Отклонено" (9)
+"trades.empty" = "Нет обменов"; // "No trades yet" (13) -> (11)
+"trades.empty.description" = "Обмены с друзьями будут здесь"; // "When you trade cars with friends, they'll show up here" (52) -> (28)
+
+// MARK: - Subscriptions
+"subscription.title" = "Подписки"; // "Subscriptions" (12) -> "Подписки" (8)
+"subscription.manage" = "Управлять подписками"; // "Manage Subscriptions" (20) -> (20)
+"subscription.active" = "Активная подписка"; // "Active Subscription" (19) -> (17)
+"subscription.inactive" = "Нет активной подписки"; // "No Active Subscription" (22) -> (21)
+"subscription.upgrade" = "Обновить подписку"; // "Upgrade Subscription" (20) -> (17)
+"subscription.subscribe_now" = "Подписаться сейчас"; // "Subscribe Now" (13) -> (18)
+"subscription.required.title" = "Нельзя обменять"; // "Can't Trade" (11) -> (15)
+"subscription.required.message" = "Требуется активная подписка для обмена"; // "You need an active subscription to trade" (39) -> (38)
+
+// MARK: - Subscription Required
+"subscription.locked.generic_title" = "Функция заблокирована"; // "Feature Locked" (14) -> (21)
+"subscription.locked.generic_message" = "Подпишись для доступа к функции"; // "Please subscribe to access this feature" (38) -> (31)
+
+// MARK: - Subscription Info
+"subscription.info.active" = "Активная подписка"; // "Active Subscription" (19) -> (17)
+"subscription.info.expires" = "Истекает: %@"; // "Expires: %@" (11) -> (12)
+"subscription.info.not_subscribed" = "Не подписан"; // "Not subscribed" (14) -> (11)
+"subscription.info.scans_available" = "%d сканов доступно"; // "%d Scans Available" (18) -> (18)
+
+// MARK: - Subscription View
+"subscription.purchase_type" = "Тип покупки"; // "Purchase Type" (13) -> (11)
+"subscription.tab.monthly" = "Ежемесячно"; // "Monthly" (7) -> "Ежемесячно" (10)
+"subscription.tab.scan_packs" = "Пакеты сканов"; // "Scan Packs" (10) -> (13)
+"subscription.current_plan" = "Текущий план"; // "Current Plan" (12) -> (12)
+"subscription.month_suffix" = "/месяц"; // "/month" (6) -> "/месяц" (6)
+"subscription.loading" = "Загрузка..."; // "Loading..." (10) -> (11)
+"subscription.scan_credits_per_month" = "%d сканов в месяц"; // "%d scans per month" (18) -> (17)
+"subscription.features.trading" = "Обмен с друзьями"; // "Trading with friends" (20) -> (16)
+"subscription.features.premium_images" = "Премиум улучшения"; // "Premium Car Upgrades" (20) -> (17)
+"subscription.button.subscribe" = "Подписаться"; // "Subscribe" (9) -> "Подписаться" (11)
+"subscription.button.purchase" = "Купить"; // "Purchase" (8) -> "Купить" (6)
+"subscription.scan_pack.starter" = "Стартовый пакет"; // "Starter Pack" (12) -> (15)
+"subscription.scan_pack.value" = "Выгодный пакет"; // "Value Pack" (10) -> (14)
+"subscription.scan_pack.mega" = "Мега пакет"; // "Mega Pack" (9) -> (11)
+"subscription.scan_pack.scans" = "сканы"; // "scans" (5) -> "сканы" (5)
+"subscription.benefits.title" = "Преимущества подписки"; // "Subscription Benefits" (20) -> (21)
+"subscription.benefits.trading.title" = "Обмен машин"; // "Car Trading" (11) -> (11)
+"subscription.benefits.trading.description" = "Обменивай машины с друзьями"; // "Trade cars with friends" (22) -> (27)
+"subscription.benefits.images.title" = "Премиум фото"; // "Premium Images" (14) -> (13)
+"subscription.benefits.images.description" = "Фото машин высокого качества"; // "High resolution car images" (26) -> (28)
+"subscription.benefits.scanning.title" = "Скан машин"; // "Scan Cars" (9) -> (10)
+"subscription.benefits.scanning.description" = "Опознавай и собирай машины"; // "Identify and collect cars" (24) -> (26)
+"subscription.alert.success.title" = "Успех"; // "Success" (7) -> "Успех" (5)
+"subscription.alert.success.message" = "Подписка успешно активирована!"; // "Your subscription was successfully activated!" (44) -> (29)
+
+// MARK: - Errors
+"error.network" = "Ошибка сети. Проверь соединение."; // "Network error. Please check your connection." (44) -> (33)
+"error.auth" = "Ошибка авторизации. Войди заново."; // "Authentication error. Please sign in again." (42) -> (33)
+"error.unknown" = "Неизвестная ошибка."; // "An unknown error occurred." (25) -> (19)
+
+// MARK: - Car Details
+"car.details.sell" = "Продать"; // "Sell" (4) -> "Продать" (7)
+"car.details.sell_title" = "Продать машину"; // "Sell Car" (8) -> (14)
+"car.details.sell_message" = "Продать машину за %d монет?"; // "Are you sure you want to sell this car? You will receive %d coins." (65) -> (27)
+"car.details.overview" = "Обзор"; // "Overview" (8) -> "Обзор" (5)
+"car.details.collected" = "Собрано"; // "Collected" (9) -> "Собрано" (7)
+"car.details.trim" = "Модификация"; // "Trim" (4) -> "Модификация" (11)
+"car.details.value" = "Ценность"; // "Value" (5) -> "Ценность" (8)
+"car.details.engine_type" = "Тип двигателя"; // "Engine Type" (11) -> (13)
+"car.details.drivetrain" = "Привод"; // "Drivetrain" (10) -> "Привод" (6)
+"car.details.weight" = "Вес"; // "Weight" (6) -> "Вес" (3)
+"car.details.weight_unit" = "%d lbs"; // "%d lbs" (6) -> "%d кг" (5, metric)
+"car.details.description" = "Описание"; // "Description" (11) -> "Описание" (8)
+"car.details.upgrade" = "Улучшить"; // "Upgrade" (7) -> "Улучшить" (8)
+"car.details.revert" = "Вернуть"; // "Revert" (6) -> "Вернуть" (7)
+"car.details.enhancing" = "Улучшение фото..."; // "Enhancing Image..." (17) -> (17)
+"car.details.specs.horsepower" = "Мощность"; // "Horsepower" (10) -> "Мощность" (8)
+"car.details.specs.horsepower_value" = "%d лс"; // "%d hp" (5) -> "%d лс" (5)
+"car.details.specs.top_speed" = "Макс. скорость"; // "Top Speed" (9) -> (14)
+"car.details.specs.top_speed_value" = "%d mph"; // "%d mph" (6) -> "%d км/ч" (7, metric)
+"car.details.specs.acceleration" = "0-100"; // "0-60" (4) -> "0-100" (5, metric)
+"car.details.specs.acceleration_value" = "%.1fс"; // "%.1fs" (5) -> "%.1fс" (5)
+"car.details.upgrade_title" = "Улучшить фото"; // "Upgrade Image" (13) -> (13)
+"car.details.upgrade_message" = "Улучшить фото машины за 5000 монет? Нужна подписка."; // "Would you like to upgrade this car's image to a premium version? This requires an active subscription and costs 5000 coins. The original image will be preserved." (156) -> (52, concise)
+"car.details.revert_title" = "Вернуть фото"; // "Revert Image" (12) -> (12)
+"car.details.revert_message" = "Вернуть исходное фото? Это бесплатно."; // "Are you sure you want to revert this car's image to the original version? This action is free but you will need to pay again to upgrade in the future." (141) -> (37)
+"car.details.error.subscription" = "Нужна подписка для улучшения фото"; // "You need an active subscription to upgrade car images" (52) -> (33)
+"car.details.error.insufficient_coins" = "Недостаточно монет. Нужно 5000."; // "Insufficient coins. You need 5000 coins to upgrade a car image." (62) -> (31)
+
+// MARK: - Trade Details
+"trade.details.title" = "Детали обмена"; // "Trade Details" (13) -> (13)
+"trade.details.offered_by" = "Предложено от "; // "Offered by " (11) -> (14)
+"trade.details.requested_from" = "Запрошено у "; // "Requested from " (15) -> (12)
+"trade.details.subscription_required" = "Требуется подписка"; // "Active Subscription Required" (28) -> (18)
+"trade.details.subscription_message" = "Нужна подписка для обмена машин."; // "You need an active subscription to trade cars." (45) -> (32)
+"trade.close" = "Закрыть"; // "Close" (5) -> "Закрыть" (7)
+
+// MARK: - Trade History
+"trade.history.offering" = "Предлагает"; // "Offering" (8) -> "Предлагает" (10)
+"trade.history.requesting" = "Запрашивает"; // "Requesting" (10) -> "Запрашивает" (11)
+"trade.history.traded" = "Обменено %@"; // "Traded %@" (9) -> (11)
+
+// MARK: - Trade
+"trade.new.title" = "Обмен машин"; // "Trade Cars" (10) -> (11)
+"trade.new.your_cars" = "Твои машины"; // "Your Cars" (9) -> (11)
+"trade.new.offering" = "Предлагаю: %d машин"; // "Offering: %d cars" (17) -> (20)
+"trade.new.cars_from" = "Машины от "; // "Cars from " (10) -> (10)
+"trade.new.requesting" = "Запрашиваю: %d машин"; // "Requesting: %d cars" (19) -> (20)
+"trade.new.submit" = "Отправить обмен"; // "Submit Trade" (12) -> (15)
+"trade.new.no_cars" = "Нет машин"; // "No cars available" (17) -> (9)
+"trade.subscription.required" = "Требуется подписка"; // "Subscription Required" (21) -> (18)
+"trade.subscription.message" = "Для обмена нужна активная подписка."; // "An active subscription is required to trade cars." (48) -> (34)
+"trade.error.unknown" = "Неизвестная ошибка"; // "An unknown error occurred" (24) -> (18)
+"trade.action.accept" = "Принять"; // "Accept" (6) -> "Принять" (7)
+"trade.action.decline" = "Отклонить"; // "Decline" (7) -> "Отклонить" (9)
+
+// MARK: - Settings
+"settings.title" = "Настройки"; // "Settings" (8) -> "Настройки" (9)
+"settings.language" = "Язык"; // "Language" (8) -> "Язык" (4)
+"settings.app_settings" = "Настройки приложения"; // "App Settings" (12) -> "Настройки приложения" (20)
+"settings.subscription" = "Подписка"; // "Subscription" (12) -> "Подписка" (8)
+"settings.language_changed" = "Язык изменен"; // "Language Changed" (16) -> "Язык изменен" (12)
+"settings.restart_required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу."; // "Please restart..." (58) -> (69)
+"settings.restart" = "Перезапустить"; // "Restart App" (11) -> "Перезапустить" (12)
+"settings.english" = "Английский"; // "English" (7) -> (10)
+"settings.russian" = "Русский"; // "Russian" (7) -> (7)
+"settings.ukrainian" = "Украинский"; // "Ukrainian" (9) -> (10)
+"settings.spanish" = "Испанский"; // "Spanish" (7) -> "Испанский" (9)
+
+// MARK: - Rarity Badge
+"rarity.common" = "Обычный"; // "Common" (6) -> (7)
+"rarity.uncommon" = "Необычный"; // "Uncommon" (8) -> (9)
+"rarity.rare" = "Редкий"; // "Rare" (4) -> (6)
+"rarity.epic" = "Эпический"; // "Epic" (4) -> (9)
+"rarity.legendary" = "Легендарный"; // "Legendary" (9) -> (11)
+
+
+// MARK: - Settings
+"settings.manage_subscription" = "Управлять подпиской";
+"settings.get_subscription" = "Получить подписку";
+"settings.subscription_settings" = "Настройки подписки";
+
+// MARK: - Scan Subscription
+"scan.subscription_required.title" = "Премиум функция";
+"scan.subscription_required.message" = "Подпишитесь, чтобы разблокировать неограниченное сканирование авто и премиум функции";
+
+/* Опасная зона - заголовок секции */
+"settings.danger_zone" = "Опасная зона";
+/* Кнопка удаления аккаунта */
+"settings.delete_account" = "Удалить аккаунт";

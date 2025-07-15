@@ -1,0 +1,296 @@
+/* 
+  Localizable.strings
+  CarBN
+
+  Created for English localization
+*/
+
+// MARK: - Common
+"common.error" = "Error";
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.loading" = "Loading...";
+"common.retry" = "Retry";
+"common.done" = "Done";
+"common.search" = "Search";
+"common.na" = "N/A";
+
+// MARK: - App
+"app.tagline" = "Collect, Trade, Connect";
+
+// MARK: - Tabs
+"tab.home" = "Home";
+"tab.friends" = "Friends";
+"tab.scan" = "Scan";
+"tab.profile" = "Profile";
+"tab.trades" = "Trades";
+
+// MARK: - Auth
+"auth.signin" = "Sign In";
+"auth.signin.google" = "Sign in with Google";
+"auth.signin.apple" = "Sign in with Apple";
+"auth.signout" = "Sign Out";
+"auth.welcome" = "Welcome";
+"auth.email" = "Email";
+"auth.password" = "Password";
+"auth.logout" = "Logout";
+
+// MARK: - Home
+"home.title" = "Activity Feed";
+"home.view" = "View";
+"home.feed" = "Feed";
+"home.likes" = "Likes";
+"home.feed.empty" = "No activity yet";
+"home.likes.empty" = "No likes yet";
+
+// MARK: - Feed
+"feed.details" = "Details";
+"feed.action.scanned" = "scanned a car";
+"feed.action.friended" = "friended";
+"feed.loading.car_details" = "Loading car details...";
+"feed.loading.trade_details" = "Loading trade details...";
+"feed.trade.cars_offered" = "%d cars offered";
+"feed.trade.cars_received" = "%d cars received";
+"feed.trade.tap_for_details" = "Tap to view details";
+"feed.like.car_scan" = "liked your car scan";
+"feed.like.trade" = "liked your trade";
+"feed.like.post" = "liked your post";
+"feed.like.car" = "liked your car";
+
+// MARK: - Scan
+"scan.title" = "Scan Car";
+"scan.car" = "Scan Car";
+"scan.change_photo" = "Change Photo";
+"scan.photo_source" = "Choose Photo Source";
+"scan.source.camera" = "Camera";
+"scan.source.photo_library" = "Photo Library";
+"scan.analyzing" = "Analyzing Car...";
+"scan.identify" = "Identify Car";
+"scan.error.unknown" = "An unknown error occurred while scanning the car";
+"scan.error.no_credits" = "No scan credits remaining";
+"scan.error.already_scanned" = "You've already scanned this car in the last 24 hours. Please wait before scanning it again.";
+"scan.error.invalid_image" = "Invalid image format or unrecognized car";
+"scan.error.failed" = "Failed to scan car. Please try again.";
+
+// MARK: - Scan Credits
+"scan.credits" = "Scan Credits";
+"scan.credits.low" = "Running low on scan credits";
+"scan.get_more" = "Get More";
+
+// MARK: - Profile
+"profile.title" = "Profile";
+"profile.score" = "Score: %d";
+"profile.cars.title" = "My Cars";
+"profile.cars.collection" = "Collection";
+"profile.cars.empty" = "No cars collected yet";
+"profile.cars.loading" = "Loading cars...";
+"profile.cars.changes_detected" = "Car changes detected, updated local cache";
+"profile.cars.no_changes" = "No changes to user cars, using existing data";
+"profile.display_name" = "Display Name";
+"profile.default_user" = "User";
+"profile.stat.collected" = "Collected";
+"profile.stat.friends" = "Friends";
+"profile.stat.score" = "Score";
+"profile.trade_cars" = "Trade Cars";
+"profile.sort" = "Sort";
+"profile.sort_by" = "Sort by";
+"profile.sort.rarity" = "Rarity";
+"profile.sort.name" = "Name";
+"profile.sort.date" = "Date Collected";
+"profile.name_error.length" = "Display name must be between 3 and 50 characters";
+"profile.name_error.update_failed" = "Failed to update display name.";
+
+// MARK: - Cars
+"car.rarity" = "Rarity";
+"car.make" = "Make";
+"car.model" = "Model";
+"car.year" = "Year";
+"car.details" = "Details";
+"car.horsepower.short" = "HP";
+"car.top_speed" = "Top Speed";
+"car.acceleration" = "0-60";
+
+// MARK: - Friends
+"friends.title" = "Friends";
+"friends.requests" = "Friend Requests";
+"friends.requests.pending" = "Pending";
+"friends.requests_count" = "Requests (%d)";
+"friends.add" = "Add Friend";
+"friends.remove" = "Remove Friend";
+"friends.empty" = "You don't have any friends yet";
+"friends.no_pending_requests" = "No pending friend requests";
+"friends.user_friends" = "%@'s Friends";
+"friends.view_profile" = "View Profile";
+"friends.search_placeholder" = "Search by display name";
+"friends.search.no_results" = "No users found";
+"friends.status.pending" = "Pending";
+"friends.total_count" = "%d total friends";
+"friends.friend_count" = "%d friends";
+"friend.no_subscription" = "This user doesn't have an active subscription";
+
+// MARK: - Trades
+"trades.title" = "Trades";
+"trades.new" = "New Trade";
+"trades.history" = "Trade History";
+"trades.offer" = "Make Offer";
+"trades.accept" = "Accept";
+"trades.reject" = "Reject";
+"trades.cancel" = "Cancel Trade";
+"trades.filter" = "Filter";
+"trades.filter.all" = "All";
+"trades.filter.pending" = "Pending";
+"trades.filter.pending_count" = "Pending (%d)";
+"trades.filter.accepted" = "Accepted";
+"trades.filter.declined" = "Declined";
+"trades.empty" = "No trades yet";
+"trades.empty.description" = "When you trade cars with friends, they'll show up here";
+
+// MARK: - Subscriptions
+"subscription.title" = "Subscriptions";
+"subscription.manage" = "Manage Subscriptions";
+"subscription.active" = "Active Subscription";
+"subscription.inactive" = "No Active Subscription";
+"subscription.upgrade" = "Upgrade Subscription";
+"subscription.subscribe_now" = "Subscribe Now";
+"subscription.required.title" = "Can't Trade";
+"subscription.required.message" = "You need an active subscription to trade";
+
+// MARK: - Subscription Required
+"subscription.locked.generic_title" = "Feature Locked";
+"subscription.locked.generic_message" = "Please subscribe to access this feature";
+
+// MARK: - Subscription Info
+"subscription.info.active" = "Active Subscription";
+"subscription.info.expires" = "Expires: %@";
+"subscription.info.not_subscribed" = "Not subscribed";
+"subscription.info.scans_available" = "%d Scans Available";
+
+// MARK: - Subscription View
+"subscription.purchase_type" = "Purchase Type";
+"subscription.tab.monthly" = "Monthly";
+"subscription.tab.scan_packs" = "Scan Packs";
+"subscription.current_plan" = "Current Plan";
+"subscription.month_suffix" = "/month";
+"subscription.loading" = "Loading...";
+"subscription.scan_credits_per_month" = "%d scans per month";
+"subscription.features.trading" = "Trading with friends";
+"subscription.features.premium_images" = "Premium Car Upgrades";
+"subscription.button.subscribe" = "Subscribe";
+"subscription.button.purchase" = "Purchase";
+"subscription.scan_pack.starter" = "Starter Pack";
+"subscription.scan_pack.value" = "Value Pack";
+"subscription.scan_pack.mega" = "Mega Pack";
+"subscription.scan_pack.scans" = "scans";
+"subscription.benefits.title" = "Subscription Benefits";
+"subscription.benefits.trading.title" = "Car Trading";
+"subscription.benefits.trading.description" = "Trade cars with friends";
+"subscription.benefits.images.title" = "Premium Images";
+"subscription.benefits.images.description" = "High resolution car images";
+"subscription.benefits.scanning.title" = "Scan Cars";
+"subscription.benefits.scanning.description" = "Identify and collect cars";
+"subscription.alert.success.title" = "Success";
+"subscription.alert.success.message" = "Your subscription was successfully activated!";
+
+// MARK: - Errors
+"error.network" = "Network error. Please check your connection.";
+"error.auth" = "Authentication error. Please sign in again.";
+"error.unknown" = "An unknown error occurred.";
+
+// MARK: - Car Details
+"car.details.sell" = "Sell";
+"car.details.sell_title" = "Sell Car";
+"car.details.sell_message" = "Are you sure you want to sell this car? You will receive %d coins.";
+"car.details.overview" = "Overview";
+"car.details.collected" = "Collected";
+"car.details.trim" = "Trim";
+"car.details.value" = "Value";
+"car.details.engine_type" = "Engine Type";
+"car.details.drivetrain" = "Drivetrain";
+"car.details.weight" = "Weight";
+"car.details.weight_unit" = "%d lbs";
+"car.details.description" = "Description";
+"car.details.upgrade" = "Upgrade";
+"car.details.revert" = "Revert";
+"car.details.enhancing" = "Enhancing Image...";
+"car.details.specs.horsepower" = "Horsepower";
+"car.details.specs.horsepower_value" = "%d hp";
+"car.details.specs.top_speed" = "Top Speed";
+"car.details.specs.top_speed_value" = "%d mph";
+"car.details.specs.acceleration" = "0-60";
+"car.details.specs.acceleration_value" = "%.1fs";
+"car.details.upgrade_title" = "Upgrade Image";
+"car.details.upgrade_message" = "Would you like to upgrade this car's image to a premium version? This requires an active subscription and costs 5000 coins. The original image will be preserved.";
+"car.details.revert_title" = "Revert Image";
+"car.details.revert_message" = "Are you sure you want to revert this car's image to the original version? This action is free but you will need to pay again to upgrade in the future.";
+"car.details.error.subscription" = "You need an active subscription to upgrade car images";
+"car.details.error.insufficient_coins" = "Insufficient coins. You need 5000 coins to upgrade a car image.";
+
+// MARK: - Trade Details
+"trade.details.title" = "Trade Details";
+"trade.details.offered_by" = "Offered by ";
+"trade.details.requested_from" = "Requested from ";
+"trade.details.subscription_required" = "Active Subscription Required";
+"trade.details.subscription_message" = "You need an active subscription to trade cars.";
+"trade.close" = "Close";
+
+// MARK: - Trade History
+"trade.history.offering" = "Offering";
+"trade.history.requesting" = "Requesting";
+"trade.history.traded" = "Traded %@";
+
+// MARK: - Trade
+"trade.new.title" = "Trade Cars";
+"trade.new.your_cars" = "Your Cars";
+"trade.new.offering" = "Offering: %d cars";
+"trade.new.cars_from" = "Cars from ";
+"trade.new.requesting" = "Requesting: %d cars";
+"trade.new.submit" = "Submit Trade";
+"trade.new.no_cars" = "No cars available";
+"trade.subscription.required" = "Subscription Required";
+"trade.subscription.message" = "An active subscription is required to trade cars.";
+"trade.error.unknown" = "An unknown error occurred";
+"trade.action.accept" = "Accept";
+"trade.action.decline" = "Decline";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.language" = "Language";
+"settings.app_settings" = "App Settings";
+"settings.subscription" = "Subscription";
+"settings.language_changed" = "Language Changed";
+"settings.restart_required" = "Please restart the app for the language change to take effect.";
+"settings.restart" = "Restart App";
+"settings.english" = "English";
+"settings.russian" = "Russian";
+"settings.ukrainian" = "Ukrainian";
+"settings.spanish" = "Spanish";
+
+//MARK: - Rarity Badge
+"rarity.common" = "Common";
+"rarity.uncommon" = "Uncommon";
+"rarity.rare" = "Rare";
+"rarity.epic" = "Epic";
+"rarity.legendary" = "Legendary";
+
+/* Subscription View */
+"subscription.scan_pack.scans" = "scans";
+"subscription.tab.scan_packs" = "Scan Packs";
+"subscription.alert.success.title" = "Purchase Successful";
+"subscription.alert.success.message" = "Your purchase has been processed successfully";
+
+// MARK: - Settings
+"settings.manage_subscription" = "Manage Subscription";
+"settings.get_subscription" = "Get Subscription";
+"settings.subscription_settings" = "Subscription Settings";
+
+// MARK: - Scan Subscription
+"scan.subscription_required.title" = "Premium Feature";
+"scan.subscription_required.message" = "Subscribe to unlock unlimited car scanning and premium features";
+
+/* Danger zone section header */
+"settings.danger_zone" = "Danger Zone";
+/* Delete Account button */
+"settings.delete_account" = "Delete Account";

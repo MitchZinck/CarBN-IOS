@@ -1,0 +1,295 @@
+/*
+  Localizable.strings
+  CarBN
+
+  Created for Spanish localization
+*/
+
+// MARK: - Common
+"common.error" = "Error";
+"common.ok" = "Aceptar";
+"common.cancel" = "Cancelar";
+"common.save" = "Guardar";
+"common.delete" = "Eliminar";
+"common.edit" = "Editar";
+"common.loading" = "Cargando...";
+"common.retry" = "Reintentar";
+"common.done" = "Hecho";
+"common.search" = "Buscar";
+"common.na" = "N/D";
+
+// MARK: - App
+"app.tagline" = "Colecciona, Intercambia, Conecta";
+
+// MARK: - Tabs
+"tab.home" = "Inicio";
+"tab.friends" = "Amigos";
+"tab.scan" = "Escanear";
+"tab.profile" = "Perfil";
+"tab.trades" = "Intercambios";
+
+// MARK: - Auth
+"auth.signin" = "Iniciar sesión";
+"auth.signin.google" = "Iniciar sesión con Google";
+"auth.signin.apple" = "Iniciar sesión con Apple";
+"auth.signout" = "Cerrar sesión";
+"auth.welcome" = "Bienvenido";
+"auth.email" = "Correo electrónico";
+"auth.password" = "Contraseña";
+"auth.logout" = "Cerrar sesión";
+
+// MARK: - Home
+"home.title" = "Feed de actividad";
+"home.view" = "Ver";
+"home.feed" = "Feed";
+"home.likes" = "Me gusta";
+"home.feed.empty" = "Aún no hay actividad";
+"home.likes.empty" = "Aún no hay 'Me gusta'";
+
+// MARK: - Feed
+"feed.details" = "Detalles";
+"feed.action.scanned" = "escaneó un coche";
+"feed.action.friended" = "añadió como amigo a";
+"feed.loading.car_details" = "Cargando detalles del coche...";
+"feed.loading.trade_details" = "Cargando detalles del intercambio...";
+"feed.trade.cars_offered" = "%d coches ofrecidos";
+"feed.trade.cars_received" = "%d coches recibidos";
+"feed.trade.tap_for_details" = "Toca para ver detalles";
+"feed.like.car_scan" = "le gustó tu escaneo de coche";
+"feed.like.trade" = "le gustó tu intercambio";
+"feed.like.post" = "le gustó tu publicación";
+"feed.like.car" = "le gustó tu coche";
+
+// MARK: - Scan
+"scan.title" = "Escanear Coche";
+"scan.car" = "Escanear Coche";
+"scan.change_photo" = "Cambiar Foto";
+"scan.photo_source" = "Elegir Fuente de Foto";
+"scan.source.camera" = "Cámara";
+"scan.source.photo_library" = "Fototeca";
+"scan.analyzing" = "Analizando Coche...";
+"scan.identify" = "Identificar Coche";
+"scan.error.unknown" = "Ocurrió un error desconocido al escanear el coche";
+"scan.error.no_credits" = "No quedan créditos de escaneo";
+"scan.error.already_scanned" = "Ya has escaneado este coche en las últimas 24 horas. Espera antes de volver a escanearlo.";
+"scan.error.invalid_image" = "Formato de imagen inválido o coche no reconocido";
+"scan.error.failed" = "Error al escanear el coche. Inténtalo de nuevo.";
+
+// MARK: - Scan Credits
+"scan.credits" = "Créditos de Escaneo";
+"scan.credits.low" = "Quedan pocos créditos de escaneo";
+"scan.get_more" = "Obtener Más";
+
+// MARK: - Profile
+"profile.title" = "Perfil";
+"profile.score" = "Puntuación: %d";
+"profile.cars.title" = "Mis Coches";
+"profile.cars.collection" = "Colección";
+"profile.cars.empty" = "Aún no has coleccionado coches";
+"profile.cars.loading" = "Cargando coches...";
+"profile.cars.changes_detected" = "Cambios detectados en los coches, caché local actualizada";
+"profile.cars.no_changes" = "Sin cambios en los coches del usuario, usando datos existentes";
+"profile.display_name" = "Nombre de usuario";
+"profile.default_user" = "Usuario";
+"profile.stat.collected" = "Coleccionados";
+"profile.stat.friends" = "Amigos";
+"profile.stat.score" = "Puntuación";
+"profile.trade_cars" = "Intercambiar Coches";
+"profile.sort" = "Ordenar";
+"profile.sort_by" = "Ordenar por";
+"profile.sort.rarity" = "Rareza";
+"profile.sort.name" = "Nombre";
+"profile.sort.date" = "Fecha de Colección";
+"profile.name_error.length" = "El nombre de usuario debe tener entre 3 y 50 caracteres";
+"profile.name_error.update_failed" = "Error al actualizar el nombre de usuario.";
+
+// MARK: - Cars
+"car.rarity" = "Rareza";
+"car.make" = "Marca";
+"car.model" = "Modelo";
+"car.year" = "Año";
+"car.details" = "Detalles";
+"car.horsepower.short" = "CV";
+"car.top_speed" = "Velocidad Máxima";
+"car.acceleration" = "0-100"; // Adjusted for common metric usage in Spanish speaking regions
+
+// MARK: - Friends
+"friends.title" = "Amigos";
+"friends.requests" = "Solicitudes de amistad";
+"friends.requests.pending" = "Pendiente";
+"friends.requests_count" = "Solicitudes (%d)";
+"friends.add" = "Añadir Amigo";
+"friends.remove" = "Eliminar Amigo";
+"friends.empty" = "Aún no tienes amigos";
+"friends.no_pending_requests" = "No hay solicitudes de amistad pendientes";
+"friends.user_friends" = "Amigos de %@";
+"friends.view_profile" = "Ver Perfil";
+"friends.search_placeholder" = "Buscar por nombre de usuario";
+"friends.search.no_results" = "No se encontraron usuarios";
+"friends.status.pending" = "Pendiente";
+"friends.total_count" = "%d amigos en total";
+"friends.friend_count" = "%d amigos";
+"friend.no_subscription" = "Este usuario no tiene una suscripción activa";
+
+// MARK: - Trades
+"trades.title" = "Intercambios";
+"trades.new" = "Nuevo Intercambio";
+"trades.history" = "Historial de Intercambios";
+"trades.offer" = "Hacer Oferta";
+"trades.accept" = "Aceptar";
+"trades.reject" = "Rechazar";
+"trades.cancel" = "Cancelar Intercambio";
+"trades.filter" = "Filtrar";
+"trades.filter.all" = "Todos";
+"trades.filter.pending" = "Pendientes";
+"trades.filter.pending_count" = "Pendientes (%d)";
+"trades.filter.accepted" = "Aceptados";
+"trades.filter.declined" = "Rechazados";
+"trades.empty" = "Aún no hay intercambios";
+"trades.empty.description" = "Cuando intercambies coches con amigos, aparecerán aquí";
+
+// MARK: - Subscriptions
+"subscription.title" = "Suscripciones";
+"subscription.manage" = "Gestionar Suscripciones";
+"subscription.active" = "Suscripción Activa";
+"subscription.inactive" = "Sin Suscripción Activa";
+"subscription.upgrade" = "Mejorar Suscripción";
+"subscription.subscribe_now" = "Suscribirse Ahora";
+"subscription.required.title" = "No se puede Intercambiar";
+"subscription.required.message" = "Necesitas una suscripción activa para intercambiar";
+
+// MARK: - Subscription Required
+"subscription.locked.generic_title" = "Función Bloqueada";
+"subscription.locked.generic_message" = "Suscríbete para acceder a esta función";
+
+// MARK: - Subscription Info
+"subscription.info.active" = "Suscripción Activa";
+"subscription.info.expires" = "Expira: %@";
+"subscription.info.not_subscribed" = "No suscrito";
+"subscription.info.scans_available" = "%d Escaneos Disponibles";
+
+// MARK: - Subscription View
+"subscription.purchase_type" = "Tipo de Compra";
+"subscription.tab.monthly" = "Mensual";
+"subscription.tab.scan_packs" = "Paquetes de Escaneo";
+"subscription.current_plan" = "Plan Actual";
+"subscription.month_suffix" = "/mes";
+"subscription.loading" = "Cargando...";
+"subscription.scan_credits_per_month" = "%d escaneos al mes";
+"subscription.features.trading" = "Intercambio con amigos";
+"subscription.features.premium_images" = "Mejoras Premium de Coches";
+"subscription.button.subscribe" = "Suscribirse";
+"subscription.button.purchase" = "Comprar";
+"subscription.scan_pack.starter" = "Paquete Inicial";
+"subscription.scan_pack.value" = "Paquete Valor";
+"subscription.scan_pack.mega" = "Mega Paquete";
+"subscription.scan_pack.scans" = "escaneos";
+"subscription.benefits.title" = "Beneficios de la Suscripción";
+"subscription.benefits.trading.title" = "Intercambio de Coches";
+"subscription.benefits.trading.description" = "Intercambia coches con amigos";
+"subscription.benefits.images.title" = "Imágenes Premium";
+"subscription.benefits.images.description" = "Imágenes de coches en alta resolución";
+"subscription.benefits.scanning.title" = "Escanear Coches";
+"subscription.benefits.scanning.description" = "Identifica y colecciona coches";
+"subscription.alert.success.title" = "Éxito";
+"subscription.alert.success.message" = "¡Tu suscripción se activó correctamente!";
+
+// MARK: - Errors
+"error.network" = "Error de red. Por favor, comprueba tu conexión.";
+"error.auth" = "Error de autenticación. Por favor, inicia sesión de nuevo.";
+"error.unknown" = "Ocurrió un error desconocido.";
+
+// MARK: - Car Details
+"car.details.sell" = "Vender";
+"car.details.sell_title" = "Vender Coche";
+"car.details.sell_message" = "¿Estás seguro de que quieres vender este coche? Recibirás %d monedas.";
+"car.details.overview" = "Resumen";
+"car.details.collected" = "Coleccionado";
+"car.details.trim" = "Versión";
+"car.details.value" = "Valor";
+"car.details.engine_type" = "Tipo de Motor";
+"car.details.drivetrain" = "Tracción";
+"car.details.weight" = "Peso";
+"car.details.weight_unit" = "%d kg"; // Adjusted to metric
+"car.details.description" = "Descripción";
+"car.details.upgrade" = "Mejorar";
+"car.details.revert" = "Revertir";
+"car.details.enhancing" = "Mejorando Imagen...";
+"car.details.specs.horsepower" = "Potencia";
+"car.details.specs.horsepower_value" = "%d CV";
+"car.details.specs.top_speed" = "Velocidad Máxima";
+"car.details.specs.top_speed_value" = "%d km/h"; // Adjusted to metric
+"car.details.specs.acceleration" = "0-100"; // Adjusted to metric
+"car.details.specs.acceleration_value" = "%.1fs";
+"car.details.upgrade_title" = "Mejorar Imagen";
+"car.details.upgrade_message" = "¿Te gustaría mejorar la imagen de este coche a una versión premium? Esto requiere una suscripción activa y cuesta 5000 monedas. La imagen original se conservará.";
+"car.details.revert_title" = "Revertir Imagen";
+"car.details.revert_message" = "¿Estás seguro de que quieres revertir la imagen de este coche a la versión original? Esta acción es gratuita pero tendrás que pagar de nuevo para mejorarla en el futuro.";
+"car.details.error.subscription" = "Necesitas una suscripción activa para mejorar las imágenes de los coches";
+"car.details.error.insufficient_coins" = "Monedas insuficientes. Necesitas 5000 monedas para mejorar la imagen de un coche.";
+
+// MARK: - Trade Details
+"trade.details.title" = "Detalles del Intercambio";
+"trade.details.offered_by" = "Ofrecido por ";
+"trade.details.requested_from" = "Solicitado a ";
+"trade.details.subscription_required" = "Se Requiere Suscripción Activa";
+"trade.details.subscription_message" = "Necesitas una suscripción activa para intercambiar coches.";
+"trade.close" = "Cerrar";
+
+// MARK: - Trade History
+"trade.history.offering" = "Ofreciendo";
+"trade.history.requesting" = "Solicitando";
+"trade.history.traded" = "Intercambiado %@";
+
+// MARK: - Trade
+"trade.new.title" = "Intercambiar Coches";
+"trade.new.your_cars" = "Tus Coches";
+"trade.new.offering" = "Ofreciendo: %d coches";
+"trade.new.cars_from" = "Coches de ";
+"trade.new.requesting" = "Solicitando: %d coches";
+"trade.new.submit" = "Enviar Intercambio";
+"trade.new.no_cars" = "No hay coches disponibles";
+"trade.subscription.required" = "Suscripción Requerida";
+"trade.subscription.message" = "Se requiere una suscripción activa para intercambiar coches.";
+"trade.error.unknown" = "Ocurrió un error desconocido";
+"trade.action.accept" = "Aceptar";
+"trade.action.decline" = "Rechazar";
+
+// MARK: - Settings
+"settings.title" = "Ajustes";
+"settings.language" = "Idioma";
+"settings.app_settings" = "Ajustes de la App";
+"settings.subscription" = "Suscripción";
+"settings.language_changed" = "Idioma Cambiado";
+"settings.restart_required" = "Por favor, reinicia la aplicación para que el cambio de idioma tenga efecto.";
+"settings.restart" = "Reiniciar App";
+"settings.english" = "Inglés";
+"settings.russian" = "Ruso";
+"settings.ukrainian" = "Ucraniano";
+"settings.spanish" = "Español"; // Spanish name for Spanish language
+"settings.manage_subscription" = "Gestionar Suscripción";
+"settings.get_subscription" = "Obtener Suscripción";
+"settings.subscription_settings" = "Ajustes de Suscripción";
+
+//MARK: - Rarity Badge
+"rarity.common" = "Común";
+"rarity.uncommon" = "Poco común";
+"rarity.rare" = "Raro";
+"rarity.epic" = "Épico";
+"rarity.legendary" = "Legendario";
+
+/* Subscription View */
+"subscription.scan_pack.scans" = "escaneos";
+"subscription.tab.scan_packs" = "Paquetes de Escaneo";
+"subscription.alert.success.title" = "Compra Exitosa";
+"subscription.alert.success.message" = "Tu compra ha sido procesada exitosamente";
+
+// MARK: - Scan Subscription
+"scan.subscription_required.title" = "Función Premium";
+"scan.subscription_required.message" = "Suscríbete para desbloquear el escaneo ilimitado de coches y funciones premium";
+
+
+/* Danger zone section header */
+"settings.danger_zone" = "Zona de peligro";
+/* Delete Account button */
+"settings.delete_account" = "Eliminar cuenta";

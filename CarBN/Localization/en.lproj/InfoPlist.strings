@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CarBN
+
+  Created for English localization
+*/
+
+"CFBundleDisplayName" = "CarBN";
+"NSCameraUsageDescription" = "The camera is used to capture images of cars.";

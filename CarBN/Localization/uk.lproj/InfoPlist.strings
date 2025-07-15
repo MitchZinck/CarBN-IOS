@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CarBN
+
+  Created for Ukrainian localization
+*/
+
+"CFBundleDisplayName" = "CarBN"; // Kept as "CarBN" (5 characters) since it’s a proper noun/brand name
+"NSCameraUsageDescription" = "Камера використовується для зйомки авто."; // "The camera is used to capture images of cars." (44 characters) -> (39 characters)
